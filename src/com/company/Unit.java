@@ -1,5 +1,5 @@
 package com.company;
 
-public interface Unit{
+public interface Unit {
     int getPersonCount();
 }

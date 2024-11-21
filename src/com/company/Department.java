@@ -3,7 +3,7 @@ package com.company;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Department implements Unit{
+public class Department implements Unit {
     private String name;
     private final Set<Employee> employees = new HashSet<>();
 
