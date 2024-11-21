@@ -35,6 +35,6 @@ public class Department implements Unit{
 
     @Override
     public int getPersonCount() {
-        return 0;
+        return getEmployees().size();
     }
 }
